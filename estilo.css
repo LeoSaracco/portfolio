@@ -219,6 +219,10 @@ html {
     margin-bottom: 10px;
 }
 
+.btnCvDownload button {
+    text-decoration: none; color: white;
+}
+
 .sobremi button {
     cursor: pointer;
     background-color: transparent;
