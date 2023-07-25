@@ -599,10 +599,6 @@ html {
     bottom: 4px;
 }
 
-.listaTareas {
-    margin-left: 30px;
-}
-
 /* SECCION PORTFOLIO */
 .portfolio {
     background-color: #252A2E;
@@ -655,6 +651,11 @@ html {
     font-size: 18px;
     letter-spacing: 3px;
     opacity: 0;
+}
+
+img {
+    width: 300px;
+    height: 250px;
 }
 
 .portfolio .galeria .proyecto .overlay h3 {
@@ -749,8 +750,7 @@ html {
     position: absolute;
     top: 40%;
     background-color: #252A2E;
-    padding: 20px;
-    max-swidth: 350px;
+    padding: 30px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
