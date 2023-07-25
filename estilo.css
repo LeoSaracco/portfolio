@@ -220,7 +220,8 @@ html {
 }
 
 .btnCvDownload button {
-    text-decoration: none; color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .sobremi button {
@@ -596,6 +597,10 @@ html {
     float: left;
     position: relative;
     bottom: 4px;
+}
+
+.listaTareas {
+    margin-left: 30px;
 }
 
 /* SECCION PORTFOLIO */
