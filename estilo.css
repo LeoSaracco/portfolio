@@ -658,11 +658,6 @@ li{
     opacity: 0;
 }
 
-img {
-    width: 300px;
-    height: 250px;
-}
-
 .portfolio .galeria .proyecto .overlay h3 {
     margin-bottom: 20px;
     transition: 1s;
@@ -676,6 +671,10 @@ img {
     margin-bottom: 0px;
 }
 
+#imgPortfolio{
+    width: 100%;
+    height: 250px;
+}
 /* SECCION CONTACTO */
 .contacto {
     background-image: url(img/contact_bg.png);
@@ -772,6 +771,122 @@ img {
     color: #1CB698;
     display: inline-block;
     margin-right: 20px;
+}
+
+/* SECCION TECNOLOGIAS */
+.tecnologias {
+    background-image: url(img/contact_bg.png);
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.tecnologias .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.tecnologias h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.tecnologias .fila {
+    display: flex;
+}
+
+.tecnologias .col {
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+
+.tecnologias .col input,
+.tecnologias .col textarea {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #252A2E;
+    color: #fff;
+    font-size: 18px;
+}
+
+.tecnologias button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.tecnologias button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+
+.tecnologias button:hover .overlay {
+    width: 100%;
+}
+
+.tecnologias .col img {
+    width: 100%;
+}
+
+.tecnologias .col .info {
+    position: absolute;
+    top: 40%;
+    background-color: #252A2E;
+    padding: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tecnologias .col .info ul {
+    list-style: none;
+}
+
+.tecnologias .col .info ul li {
+    margin-bottom: 20px;
+}
+
+.tecnologias .col .info ul li i {
+    color: #1CB698;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.slider-container-tecnologias {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slider-tecnologias {
+    display: flex;
+    animation: slide 10s linear infinite; /* Ajusta el tiempo y la animación según tus necesidades */
+}
+
+.slider-tecnologias img {
+    width: 80px; /* Ajusta el tamaño de los iconos según tus necesidades */
+    margin-right: 10px; /* Ajusta el espacio entre los iconos según tus necesidades */
 }
 
 footer {
@@ -899,3 +1014,4 @@ footer .arriba {
         width: 100%;
     }
 }
+
