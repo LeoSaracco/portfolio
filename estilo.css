@@ -807,13 +807,15 @@ li {
 .slider-tecnologias {
     display: flex;
     animation: slide 10s linear infinite;
+    margin-top: 10px;
+    margin-left: 25px;
     /* Ajusta el tiempo y la animación según tus necesidades */
 }
 
 .slider-tecnologias img {
     width: 80px;
     /* Ajusta el tamaño de los iconos según tus necesidades */
-    margin-right: 5px;
+    margin-right: px;
     margin-left: 5px;
     /* Ajusta el espacio entre los iconos según tus necesidades */
 }
