@@ -785,11 +785,13 @@ li {
 .tecnologias .contenido-seccion {
     max-width: 1100px;
     margin: auto;
-    padding: 0 20px; /* Agregamos un espacio a los lados para que no quede pegado a los bordes en pantallas pequeñas */
+    padding: 0 20px;
+    /* Agregamos un espacio a los lados para que no quede pegado a los bordes en pantallas pequeñas */
 }
 
 .tecnologias h2 {
-    font-size: 36px; /* Reducimos el tamaño del título para pantallas pequeñas */
+    font-size: 36px;
+    /* Reducimos el tamaño del título para pantallas pequeñas */
     text-align: center;
     padding: 20px 0;
 }
@@ -804,42 +806,53 @@ li {
 
 .slider-tecnologias {
     display: flex;
-    animation: slide 10s linear infinite; /* Ajusta el tiempo y la animación según tus necesidades */
+    animation: slide 10s linear infinite;
+    /* Ajusta el tiempo y la animación según tus necesidades */
 }
 
 .slider-tecnologias img {
-    width: 80px; /* Ajusta el tamaño de los iconos según tus necesidades */
-    margin-right: 10px; /* Ajusta el espacio entre los iconos según tus necesidades */
+    width: 80px;
+    /* Ajusta el tamaño de los iconos según tus necesidades */
+    margin-right: 5px;
+    margin-left: 5px;
+    /* Ajusta el espacio entre los iconos según tus necesidades */
 }
 
 /* Media queries para hacerlo responsive */
 @media (max-width: 768px) {
     .tecnologias h2 {
-        font-size: 24px; /* Reducimos aún más el tamaño del título para pantallas muy pequeñas */
+        font-size: 24px;
+        /* Reducimos aún más el tamaño del título para pantallas muy pequeñas */
     }
 
     .slider-tecnologias img {
-        width: 50px; /* Reducimos el tamaño de los iconos para pantallas pequeñas */
+        width: 50px;
+        /* Reducimos el tamaño de los iconos para pantallas pequeñas */
     }
 }
 
 @media (max-width: 480px) {
     .tecnologias .contenido-seccion {
-        padding: 0 10px; /* Reducimos el espacio a los lados para pantallas muy pequeñas */
+        padding: 0 10px;
+        /* Reducimos el espacio a los lados para pantallas muy pequeñas */
     }
+
     .slider-tecnologias img {
-        width: 40px; /* Reducimos el tamaño de los iconos para pantallas pequeñas */
+        width: 40px;
+        /* Reducimos el tamaño de los iconos para pantallas pequeñas */
     }
+
     .slider-container-tecnologias {
         display: block;
         justify-content: center;
         align-items: center;
         overflow: hidden;
     }
-    
+
     .slider-tecnologias {
         display: block;
-        animation: slide 10s linear infinite; /* Ajusta el tiempo y la animación según tus necesidades */
+        animation: slide 10s linear infinite;
+        /* Ajusta el tiempo y la animación según tus necesidades */
     }
 }
 
