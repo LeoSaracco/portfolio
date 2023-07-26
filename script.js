@@ -47,7 +47,7 @@ function sendMessge() {
         span.innerHTML = "<b>Por favor, completá todos los campos</b>";
         alert(span.innerText)
     } else {
-        var msgFinal = "Hola Leandro, soy " + nombreValue + ", quería comentarte que" + msgValue + ".";
+        var msgFinal = "Hola Leandro, soy " + nombreValue + ", quería comentarte que " + msgValue + ".";
         window.location.href = "https://api.whatsapp.com/send?phone=+5492224502247&text=" + msgFinal;
     }
 }
