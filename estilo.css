@@ -43,15 +43,15 @@ html {
     list-style: none;
 }
 
-li {
+.listaTrabajos {
     margin-top: 3px;
     margin-left: 30px;
 }
 
 .contenedor-header header nav ul li a {
-    text-align: none;
+    text-align: ce;
     color: #fff;
-    padding: 3px;
+    padding: 7px;
     transition: .5s;
     text-decoration: none;
 }
@@ -802,21 +802,22 @@ li {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    width: 100%;
 }
 
 .slider-tecnologias {
-    display: flex;
+    display: flexbox;
     animation: slide 10s linear infinite;
     margin-top: 10px;
-    margin-left: 25px;
     /* Ajusta el tiempo y la animación según tus necesidades */
 }
 
 .slider-tecnologias img {
     width: 80px;
     /* Ajusta el tamaño de los iconos según tus necesidades */
-    margin-right: px;
+    margin-right: 5px;
     margin-left: 5px;
+    margin-top: 10px;
     /* Ajusta el espacio entre los iconos según tus necesidades */
 }
 

@@ -20,9 +20,9 @@
                 <a href="#">Leandro Saracco</a>
             </div>
             <nav id="nav">
-                <ul >
-                    <li ><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li ><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#tecnologias" onclick="seleccionar()">TECNOLOGÍAS</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
@@ -55,7 +55,7 @@
                 técnicamente una consultora de 120 empleados. Aunque tengo formación como docente, en la
                 actualidad me dedico exclusivamente a impartir capacitaciones, enfocándome en la excelencia técnica y la
                 innovación en diversos proyectos. Fomento un ambiente colaborativo y motivador para lograr resultados
-                excepcionales. Siempre en búsqueda de nuevos retos para seguir creciendo y aportar mi experiencia en
+                positivos. Siempre en búsqueda de nuevos retos para seguir creciendo y aportar mi experiencia en
                 proyectos tecnológicos significativos.</p>
 
             <div class="fila">
@@ -69,8 +69,8 @@
                         </li>
 
                         <li>
-                            <strong>Email</strong>
-                            leosaracco@gmail.com
+                            <strong>Estado Civil</strong>
+                            Soltero
                         </li>
 
                         <li>
@@ -216,18 +216,19 @@
                     <img src="icons/postgre.png" alt="PostgreSQL Icon">
                     <img src="icons/linux.png" alt="Linux Icon">
                     <img src="icons/jboss.png" alt="JBoss Icon">
-                    
+
                     <img src="icons/wildfly.png" alt="Wildfly Icon">
 
                     <img src="icons/apache.png" alt="Apache Icon">
                     <img src="icons/docker.png" alt="Docker Icon">
                     <img src="icons/proxmox.png" alt="Proxmox Icon">
-                   
+
                     <img src="icons/wServer.png" alt="wServer Icon">
                     <img src="icons/ubuntu.png" alt="Ubuntu Icon">
                     <img src="icons/sb.png" alt="Sb Icon">
-                   
-                   
+                    <img src="icons/python.png" alt="Python Icon">
+
+
                     <!-- Agregar más iconos -->
                 </div>
             </div>
@@ -278,10 +279,10 @@
                         <span class="fecha">2019 - 2021</span>
                         <p>
                             Fui ayudante de cátedra de las materias:
-                        <ul class="listaTareas">
-                            <li>Programación I (C#)</li>
-                            <li>Programación Orientada a Objetos (Visual C#)</li>
-                            <li>EDI WEB</li>
+                        <ul>
+                            <li class="listaTrabajos">Programación I (C#)</li>
+                            <li class="listaTrabajos">Programación Orientada a Objetos (Visual C#)</li>
+                            <li class="listaTrabajos">EDI WEB</li>
                         </ul>
                         Mi tarea consistía en brindarle soporte pedagógico, didáctico y técnico al docente Ing. Leandro
                         Pini
@@ -359,10 +360,11 @@
                             solucionarle problemas tanto de Hardware como de Software.
                             Los problemas que más se me presentan por lo general son:
                         <ul class="listaTareas">
-                            <li>La pc no tiene conectividad (problema de red).</li>
-                            <li>Las impresoras no imprimen los documentos.</li>
-                            <li>Problemas de logueo en el sistema SISER.</li>
-                            <li>Conseguir nuevas herramientas de Software para optimizar la tarea del usuario,
+                            <li class="listaTrabajos">La pc no tiene conectividad (problema de red).</li>
+                            <li class="listaTrabajos">Las impresoras no imprimen los documentos.</li>
+                            <li class="listaTrabajos">Problemas de logueo en el sistema SISER.</li>
+                            <li class="listaTrabajos">Conseguir nuevas herramientas de Software para optimizar la tarea
+                                del usuario,
                                 como por ejemplo editores de pdf.</li>
                         </ul>
                         <div class="conectord">
@@ -397,7 +399,7 @@
                 <div class="proyecto">
                     <img src="img/p3.jpg" alt="" id="imgPortfolio">
                     <div class="overlay">
-                        <h3>Integración </h3>
+                        <h3>Integración</h3>
                         <p>Continua</p>
                     </div>
                 </div>
@@ -433,13 +435,10 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <input type="text" placeholder="Tú Nombre" id="Nombre">
+                    <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button onclick=sendMessge()>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
                 </div>

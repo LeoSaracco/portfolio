@@ -29,8 +29,6 @@ function efectoHabilidades() {
         habilidades[5].classList.add("comunicacion");
         habilidades[6].classList.add("trabajo");
         habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("proyect");
     }
 }
 
@@ -38,4 +36,18 @@ function efectoHabilidades() {
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function () {
     efectoHabilidades();
-} 
+}
+
+function sendMessge() {
+    var nombreValue = document.getElementById("Nombre").value;
+    var msgValue = document.getElementById("Mensaje").value;
+
+    if (nombreValue == '' || msgValue == '') {
+        var span = document.createElement("span");
+        span.innerHTML = "<b>Por favor, completá todos los campos</b>";
+        alert(span.innerText)
+    } else {
+        var msgFinal = "Hola Leandro, soy " + nombreValue + ", quería comentarte que" + msgValue + ".";
+        window.location.href = "https://api.whatsapp.com/send?phone=+5492224502247&text=" + msgFinal;
+    }
+}
